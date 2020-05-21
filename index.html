@@ -1,0 +1,82 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=500; user-scalable=0;">
+	<link rel="stylesheet" href="mdl/material.min.css">
+	<script src="mdl/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+<!-- Image card -->
+<style>
+.demo-card-image.mdl-card {
+  cursor: pointer;
+  float: left;
+  margin: 20px 0px 0px 20px;
+  width: 220px;
+  height: 220px;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-img {
+  background: url('../assets/img/key.png') center / cover;
+}
+
+.download-img {
+  background: url('../assets/img/download.png') center / cover;
+}
+
+.plex-img {
+  background: url('../assets/img/play.png') center / cover;
+}
+
+.file-img {
+  background: url('../assets/img/file.png') center / cover;
+}
+
+</style>
+
+<div class="demo-card-image mdl-card mdl-shadow--2dp login-img" onclick="window.location='https://login.gregunz.com'">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">LOGIN</span>
+  </div>
+</div>
+
+<div class="demo-card-image mdl-card mdl-shadow--2dp download-img" onclick="window.location='https://login.gregunz.com/download'">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">DOWNLOAD</span>
+  </div>
+</div>
+
+<div class="demo-card-image mdl-card mdl-shadow--2dp plex-img" onclick="window.location='https://app.plex.tv/web/app'">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">PLEX</span>
+  </div>
+</div>
+
+<div class="demo-card-image mdl-card mdl-shadow--2dp file-img" onclick="window.location='https://login.gregunz.com/file'">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <span class="demo-card-image__filename">FILE</span>
+  </div>
+</div>
+
+
+</body>
+
+</html>
